@@ -10,7 +10,7 @@ CORS(app)
 @app.route('/', methods=['GET'])
 def home():
     return jsonify({"message": "Welcome to the Speech-to-Text API!"})
-
+#---- This is where I left off learning. -----#
 @app.route('/speech-to-text', methods=['POST'])
 def speech_to_text():
     recognizer = sr.Recognizer()
